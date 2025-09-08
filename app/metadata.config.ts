@@ -1,7 +1,7 @@
 export const siteConfig = {
-  title: 'Sampath Kumara | Full Stack Developer',
+  title: 'Marco Lazaro | Full Stack Developer',
   description:
-    'Professional portfolio of Sampath Kumara, a Full Stack Developer specializing in React, Node.js, and modern web technologies.',
+    'Professional portfolio of Marco lazaro, a Full Stack Developer specializing in React, Node.js, and modern web technologies.',
   keywords: [
     'Full Stack Developer',
     'Web Developer',
@@ -9,8 +9,8 @@ export const siteConfig = {
     'Next.js',
     'Node.js',
   ],
-  author: 'Sampath Kumara',
-  siteUrl: 'https://sampathkumara.me',
-  ogImage: '/og-image.jpg',
-  twitter: '@sampathkumaramd',
+  author: 'Marco lazaro',
+  siteUrl: '',
+  ogImage: '',
+  twitter: '',
 };

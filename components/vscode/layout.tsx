@@ -263,17 +263,17 @@ export default function VSCodeLayout({ children }: VSCodeLayoutProps) {
       subItems: [
         {
           label: 'Email',
-          href: 'mailto:mdskumara.info@gmail.com',
+          href: 'mailto:lazaromarco1526@gmail.com',
           action: 'newTab',
         },
         {
           label: 'LinkedIn',
-          href: 'https://www.linkedin.com/in/sampathkumaramd',
+          href: '',
           action: 'newTab',
         },
         {
           label: 'GitHub',
-          href: 'https://github.com/sampath-kumaramd',
+          href: '',
           action: 'newTab',
         },
       ],

@@ -98,23 +98,18 @@ export default function ContactForm() {
   const contactInfo = [
     {
       icon: Phone,
-      text: '(+94) 76 093 7443',
-      href: 'tel:+94760937443',
+      text: '(+63) 975 553 5505',
+      href: 'tel:+639755535505',
     },
     {
       icon: Mail,
-      text: 'mdskumara.info@gmail.com',
-      href: 'mailto:mdskumara.info@gmail.com',
+      text: 'lazaromarco1526@gmail.com',
+      href: 'mailto:lazaromarco1526@gmail.com',
     },
     {
       icon: MapPin,
-      text: 'Moratuwa, Sri Lanka',
-      href: 'https://maps.google.com/?q=Moratuwa,+Sri+Lanka',
-    },
-    {
-      icon: MessageCircle,
-      text: 'sampath_kumara',
-      href: 'https://discord.com/users/sampath_kumara',
+      text: 'Nueva Ecija, Philippines',
+      href: 'https://maps.google.com/?q=Nueva+Ecija,+Philippines',
     },
   ];
 

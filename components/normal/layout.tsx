@@ -32,7 +32,7 @@ export default function NormalLayout({ children }: NormalLayoutProps) {
             href="/"
             className="text-xl font-bold text-gray-900 dark:text-white"
           >
-            Sampath Kumara
+            Marco Lazaro
           </Link>
 
           <nav className="hidden md:block">
@@ -116,7 +116,7 @@ export default function NormalLayout({ children }: NormalLayoutProps) {
       <footer className="border-t border-gray-200 bg-white py-6 dark:border-gray-800 dark:bg-gray-900">
         <div className="container mx-auto px-4 text-center text-sm text-gray-600 dark:text-gray-400">
           <p>
-            © {new Date().getFullYear()} Sampath Kumara. All rights reserved.
+            © {new Date().getFullYear()} Marco Lazaro. All rights reserved.
           </p>
         </div>
       </footer>

@@ -130,23 +130,23 @@ const AboutMe: React.FC = () => {
                 <div className="mt-8 grid grid-cols-12">
                   <div className="col-span-12 md:col-span-4">
                     <div className="inset-0 z-10 flex justify-center transition-opacity duration-300">
-                      <Image
+                      {/* <Image
                         src="/sampath.png"
                         alt="hero"
                         className="h-60 w-60 rounded-full border-2 border-[#333333] object-cover"
                         width={240}
                         height={240}
                         priority
-                      />
+                      /> */}
                     </div>
                     <div className="mt-4 flex flex-col items-center">
                       <h1 className="text-2xl font-bold text-white">
-                        Sampath Kumara
+                        Marco Paulo Lazaro
                       </h1>
                       <p className="text-[#858585]">Software Engineer</p>
                       <div className="mt-2 flex space-x-3">
                         <a
-                          href="mailto:mdskumara.info@gmail.com"
+                          href="mailto:lazaromarco1526@gmail.com"
                           className="text-[#007acc] hover:text-[#007acc]/80"
                         >
                           <svg
@@ -165,7 +165,7 @@ const AboutMe: React.FC = () => {
                           </svg>
                         </a>
                         <a
-                          href="https://github.com/sampath-kumaramd"
+                          href="https://github.com/Marcpaul111"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-gray-800 hover:text-black dark:text-gray-400 dark:hover:text-white"
@@ -180,7 +180,7 @@ const AboutMe: React.FC = () => {
                           </svg>
                         </a>
                         <a
-                          href="https://www.linkedin.com/in/sampathkumaramd/"
+                          href="https://www.linkedin.com/in/marco-paulo-lazaro-b216a920b/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-blue-700 hover:text-blue-900"
@@ -202,7 +202,7 @@ const AboutMe: React.FC = () => {
                   </div>
                   <div className="col-span-12 pt-10 md:col-span-8 md:pt-0">
                     <p className="mb-4 text-4xl text-white">
-                      Hey there! It&apos;s me, Sampath.
+                      Hey there! It&apos;s me, Marco.
                     </p>
                     <p className="mb-4 text-[#bbbbbb]">
                       I am a highly motivated individual who thrives on taking

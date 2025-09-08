@@ -20,12 +20,12 @@ export default function Home() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'Sampath Kumara',
+    name: 'Marco Paulo Lazaro',
     jobTitle: 'Full Stack Developer',
-    url: 'https://sampathkumara.me',
+    url: '',
     sameAs: [
-      'https://github.com/sampath-kumaramd',
-      'https://linkedin.com/in/sampathkumaramd',
+      'https://github.com/Marcpaul111',
+      'https://www.linkedin.com/in/marco-paulo-lazaro-b216a920b/',
     ],
   };
 

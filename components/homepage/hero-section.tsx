@@ -107,7 +107,7 @@ const HeroSection = () => {
                 </div>
                 <BoxReveal boxColor={'#029ba3'} duration={0.5}>
                   <div className="text-3xl font-semibold uppercase text-Secondary sm:text-4xl md:text-5xl lg:text-[5rem]">
-                    Sampath Kumara
+                    Marco Paulo Lazaro
                   </div>
                 </BoxReveal>
               </div>
@@ -115,7 +115,7 @@ const HeroSection = () => {
                 Full Stack Developer specializing in building exceptional
                 digital experiences
                 <br className="hidden sm:block" /> with expertise in React,
-                Next.js, Angular, Spring boot and Node.js.
+                Next.js and Node.js.
                 <br className="hidden sm:block" /> I transform complex problems
                 into elegant, efficient solutions
                 <br className="hidden sm:block" /> with a focus on performance,
