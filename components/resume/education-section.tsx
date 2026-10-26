@@ -5,22 +5,19 @@ type Education = {
   duration: string;
   institute: string;
   subject: string;
-  result: string;
 };
 
 function EducationSection() {
   const Education: Education[] = [
     {
-      duration: 'Expected in 2025',
-      institute: 'University of Moratuwa',
-      subject: 'BSc (Hons.) in Information Technology',
-      result: 'CGPA - 3.18',
+      duration: 'Expected in 2021',
+      institute: 'KodeGo',
+      subject: 'Full Stack Web Development',
     },
     {
-      duration: '2019',
-      institute: 'G.C.E. Advance Level',
-      subject: 'Physical Science Stream',
-      result: "1 A , 2 B's",
+      duration: '2016 - 2020',
+      institute: 'Core Gateway College Inc.',
+      subject: 'Business Administration Major in Business Management',
     },
   ];
   return (
@@ -42,7 +39,6 @@ function EducationSection() {
                 <p className="mb-2 text-Secondary">{item.duration}</p>
                 <h3 className="text-2xl font-semibold">{item.subject}</h3>
                 <p className="mb-3 text-lg">{item.institute}</p>
-                <p className="text-lg text-fontGray">{item.result}</p>
               </div>
             ))}
           </div>

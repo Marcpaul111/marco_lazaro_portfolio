@@ -37,7 +37,7 @@ export default function SourceControl() {
       try {
         // Fetch real data from GitHub API
         const response = await fetch(
-          'https://api.github.com/users/sampath-kumaramd/repos?sort=updated&per_page=1000'
+          'https://api.github.com/users/Marcpaul111/repos?sort=updated&per_page=1000'
         );
 
         if (!response.ok) {
@@ -115,7 +115,7 @@ export default function SourceControl() {
             <span>GitHub Repositories</span>
           </div>
           <a
-            href="https://github.com/sampath-kumaramd"
+            href="https://github.com/Marcpaul111"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-xs text-[#007acc] hover:underline"

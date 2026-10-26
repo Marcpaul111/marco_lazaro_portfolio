@@ -37,7 +37,7 @@ export default function RootLayout({
             window.isMobile = isMobileDevice();
           `}
         </Script>
-        <link rel="icon" href="/logo-white.png" />
+        {/* <link rel="icon" href="/logo-white.png" /> */}
 
         {/* Google Analytics */}
         <Script

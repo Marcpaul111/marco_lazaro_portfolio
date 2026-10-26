@@ -1,4 +1,4 @@
-# Portfolio Website - Sampath Kumara
+# Portfolio Website - Marco Lazaro
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), featuring a unique VS Code-themed interface.
 

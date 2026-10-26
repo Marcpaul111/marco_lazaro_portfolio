@@ -10,7 +10,6 @@ type Education = {
   duration: string;
   institute: string;
   subject: string;
-  result: string;
 };
 
 type WorkExperience = {
@@ -52,42 +51,44 @@ const AboutMe: React.FC = () => {
 
   const education: Education[] = [
     {
-      duration: 'Expected in 2025',
-      institute: 'University of Moratuwa',
-      subject: 'B.Sc.(Hons.) in Information Technology',
-      result: 'CGPA : 3.1',
+      duration: '2021',
+      institute: 'KodeGo',
+      subject: 'Full Stack Web Development',
+    },
+    {
+      duration: '2020',
+      institute: 'Core Gateway College Inc.',
+      subject:
+        'Bachelor of Science in Business Administration Major in Business Management',
     },
   ];
 
   const workExperience: WorkExperience[] = [
     {
-      position: 'Software Engineer Intern',
-      company: 'Aizenit',
-      duration: 'January 2024 - July 2024',
+      position: 'Freelance Software Developer',
+      company: 'Self-Employed',
+      duration: 'Aug 2025 - present',
       description: [
-        "Engineered feature enhancements for Geniaez's product using Angular, improving overall user experience and reducing client-reported bugs.",
-        'Implemented new functionalities such as payment integrations, chatbot features, and mobile application development with Angular Capacitor.',
-        'Contributed to content creation, user support, and codebase optimization, including work on Smart Table and Smart Tagger libraries with Angular.',
+        'Developed mobile POS application for a school cafeteria, utilizing React native and SQlite to create a user-friendly interface for cafeteria staff, streamlining order processing and inventory management.',
+        'Created a teachers and students class management system where teachers can manage their classes and students can view their class schedules, upload modules and assignments, using React and Node.js to build a responsive web application.',
       ],
     },
     {
-      position: 'Freelance Software Engineer - Level Two Seller',
-      company: 'Fiverr',
-      duration: 'October 2023 - Present',
+      position: 'Software Developer',
+      company: 'Codebility',
+      duration: 'March 2025 - Aug 2025',
       description: [
-        'Delivered 45+ web development projects for international clients with a 99% satisfaction rate while maintaining a 5/5 seller rating.',
-        'Spearheaded development of responsive web applications using Next.js, React, and Tailwind CSS, reducing average project delivery time by 20% through efficient component architecture.',
-        'Established systematic project management workflow that ensured 98% on-time delivery rate while handling multiple concurrent projects.',
+        'Collaborated with cross-functional teams to design and implement scalable web applications using Next.js, Tailwind CSS, and Supabase, resulting in a 15% increase in user engagement. ',
+        'Developed Bindi BSP, a platform for managing NDIS participants and medical practitioners in Australia, utilizing Next.js, Tailwind CSS, and Supabase to create a responsive and user-friendly interface.',
       ],
     },
     {
-      position: 'Software Engineer Intern (Part-time)',
-      company: 'AsyncDot',
-      duration: 'July 2023 - March 2024',
+      position: 'Software Developer',
+      company: 'Technos Systems',
+      duration: 'March 2023 - Jan 2025',
       description: [
-        'Built and maintained projects including a customizable POS system using Next.js, Node.js and React Native.',
-        'Implemented efficient backend solutions using MedusaJS while integrating and consuming REST APIs.',
-        'Collaborated on frontend development using React.js, T4 app, Next.js and Tailwind CSS ensuring responsive and user-friendly interfaces across web and mobile platforms.',
+        'Built and maintained projects including a customizable HR Management System SaaS platform.',
+        'Collaborated on development digital SCADA, using PHP CodeIgniter, Bootstrap CSS and MySQL ensuring responsive and user-friendly interfaces across web and mobile platforms.',
       ],
     },
   ];
@@ -224,9 +225,9 @@ const AboutMe: React.FC = () => {
                           'TypeScript',
                           'Next.js',
                           'React',
-                          'Angular',
+                          'C#',
                           'Node.js',
-                          'Spring Boot',
+                          'ASP.NET Core',
                           'TailwindCSS',
                           'Shadcn UI',
                           'React Query',
@@ -256,10 +257,7 @@ const AboutMe: React.FC = () => {
                           Full-stack developer with expertise in modern
                           JavaScript frameworks
                         </li>
-                        <li>
-                          Delivered 45+ web development projects with 99% client
-                          satisfaction
-                        </li>
+
                         <li>
                           Experience in both freelance and team-based
                           development environments
@@ -267,10 +265,6 @@ const AboutMe: React.FC = () => {
                         <li>
                           Passionate about creating responsive, user-friendly
                           interfaces
-                        </li>
-                        <li>
-                          Actively contributing to open-source projects on
-                          GitHub
                         </li>
                       </ul>
                     </div>
@@ -350,7 +344,6 @@ const AboutMe: React.FC = () => {
                         </div>
                         <p className="text-sm text-[#858585]">{edu.duration}</p>
                       </div>
-                      <p className="mt-2 text-[#bbbbbb]">{edu.result}</p>
                     </div>
                   ))}
                 </div>
@@ -379,9 +372,7 @@ const AboutMe: React.FC = () => {
                     <h4 className="text-md font-medium text-white">
                       Supermarket System -{' '}
                       <Link
-                        href={
-                          'https://github.com/sampath-kumaramd/supermarket-system'
-                        }
+                        href={''}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-[#007acc]"

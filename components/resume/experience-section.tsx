@@ -5,7 +5,7 @@ import TimeLineExperienceSection from './time-line-experience-section';
 type Experience = {
   duration: string;
   position: string;
-  company: string;
+  company?: string;
   companyLink?: string;
   skills: {
     name: string;
@@ -15,32 +15,33 @@ type Experience = {
 function ExperienceSection() {
   const Experience: Experience[] = [
     {
-      duration: 'Oct 2023 - Present',
+      duration: 'Aug 2025 - Present',
       position: 'Freelance Software Developer',
-      company: 'Fiverr · Freelance',
       companyLink: 'https://www.fiverr.com/users/mdskumara',
       skills: [{ name: 'NextJs' }, { name: 'Angular' }, { name: 'TypeScript' }],
     },
     {
-      duration: 'Sep 2024 - Oct 2024',
-      position: 'Frontend developer',
-      company: 'SoraSoft · Part-time',
-      companyLink: 'https://softsora.com/',
-      skills: [{ name: 'NextJs' }, { name: 'Tailwind CSS' }],
+      duration: 'March 2025 - Aug 2025',
+      position: 'Full Stack Developer',
+      company: 'Codebility · Full-time',
+      companyLink: 'https://www.codebility.tech/',
+      skills: [
+        { name: 'NextJs' },
+        { name: 'Tailwind CSS' },
+        { name: 'Supabase' },
+        { name: 'PostgreSQL' },
+      ],
     },
     {
-      duration: 'Jan 2024 - Jun 2024',
-      position: 'Software Engineer Intern',
-      company: 'Aizenit · Full-time',
-      companyLink: 'https://www.aizenit.com/',
-      skills: [{ name: 'Angular' }, { name: 'Bootstrap' }, { name: 'Strapi' }],
-    },
-    {
-      duration: 'July 2023 - March 2024',
-      position: 'Software Engineer Internship',
-      company: 'AsyncDot · Part-time',
-      companyLink: 'https://asyncdot.com/',
-      skills: [{ name: 'MedusaJS' }, { name: 'NextJs' }, { name: 'T4 App' }],
+      duration: 'March 2023 - January 2025',
+      position: 'Software Developer',
+      company: 'Technos Systems · Full-time',
+      companyLink: 'https://www.linkedin.com/company/technos-systems/',
+      skills: [
+        { name: 'PHP CodeIgniter' },
+        { name: 'Bootstrap' },
+        { name: 'MySQL' },
+      ],
     },
   ];
 

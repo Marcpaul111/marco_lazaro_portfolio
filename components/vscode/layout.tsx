@@ -298,7 +298,7 @@ export default function VSCodeLayout({ children }: VSCodeLayoutProps) {
         { label: 'Navigation Guide', href: '#', action: 'showGuide' },
         {
           label: 'Source Code',
-          href: 'https://github.com/sampath-kumaramd/portfolio',
+          href: 'https://github.com/Marcpaul111/my_portfolio_new',
         },
       ],
     },
@@ -927,7 +927,7 @@ export default function VSCodeLayout({ children }: VSCodeLayoutProps) {
               <div className="flex items-center gap-4">
                 <span>Go Live</span>
                 <span className="ml-4 text-[#e0e0e0]">
-                  © {new Date().getFullYear()} Sampath Kumara
+                  © {new Date().getFullYear()} Marco Lazaro
                 </span>
               </div>
             </div>

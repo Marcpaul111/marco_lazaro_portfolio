@@ -1,5 +1,5 @@
 import { Skill } from '@/types/skills';
-import { BiArch, BiLogoSpringBoot } from 'react-icons/bi';
+import { AiOutlineDotNet } from 'react-icons/ai';
 import {
   FaGit,
   FaJava,
@@ -13,6 +13,7 @@ import {
   FaAngular,
 } from 'react-icons/fa';
 import { GrMysql } from 'react-icons/gr';
+import { TbBrandCSharp } from 'react-icons/tb';
 import {
   SiBitbucket,
   SiDocker,
@@ -193,6 +194,20 @@ export const skills: Skill[] = [
     Icon: SiSupabase,
     name: 'Supabase',
     link: 'https://supabase.com/',
+    category: ['Backend'],
+    proficiency: 85,
+  },
+  {
+    Icon: TbBrandCSharp,
+    name: 'C#',
+    link: 'https://learn.microsoft.com/en-us/dotnet/csharp/',
+    category: ['Backend'],
+    proficiency: 85,
+  },
+  {
+    Icon: AiOutlineDotNet,
+    name: 'DotNet',
+    link: 'https://dotnet.microsoft.com/en-us/',
     category: ['Backend'],
     proficiency: 85,
   },

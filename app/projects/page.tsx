@@ -75,16 +75,7 @@ const ProjectShowcase = () => {
             className="mb-16 text-xl"
             style={{ color: vsCodeColors.secondaryText }}
           >
-            These are some of my projects. You can find more on my
-            <a
-              href="https://github.com/sampath-kumaramd"
-              target="_blank"
-              className="text-blue-400"
-            >
-              {' '}
-              GitHub
-            </a>
-            .
+            These are some of my projects.
           </motion.div>
 
           <div className="space-y-32">

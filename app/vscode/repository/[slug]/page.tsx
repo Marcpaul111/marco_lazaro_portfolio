@@ -56,7 +56,7 @@ export default function RepositoryPage() {
 
         // Fetch actual repository data from GitHub API
         const repoResponse = await fetch(
-          `https://api.github.com/repos/sampath-kumaramd/${slug}`
+          `https://api.github.com/repos/Marcpaul111/${slug}`
         );
 
         if (!repoResponse.ok) {
@@ -69,7 +69,7 @@ export default function RepositoryPage() {
         let readmeContent = '';
         try {
           const readmeResponse = await fetch(
-            `https://api.github.com/repos/sampath-kumaramd/${slug}/readme`
+            `https://api.github.com/repos/Marcpaul111/${slug}/readme`
           );
           if (readmeResponse.ok) {
             const readmeData = await readmeResponse.json();

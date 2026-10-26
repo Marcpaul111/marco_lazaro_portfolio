@@ -22,7 +22,7 @@ export default function Loading() {
             ease: 'easeInOut',
           }}
         >
-          S
+          M
         </motion.span>
         <motion.span
           className="text-5xl text-Secondary"
@@ -37,7 +37,7 @@ export default function Loading() {
             delay: 0.2,
           }}
         >
-          K
+          L
         </motion.span>
       </motion.div>
     </div>

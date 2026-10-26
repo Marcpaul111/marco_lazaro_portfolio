@@ -183,13 +183,13 @@ export default function VSCodeSlugPage() {
               <div className="text-[#bbbbbb]">
                 <p>Thanks for visiting my portfolio!</p>
                 <p className="mt-1 text-sm text-[#858585]">
-                  © {new Date().getFullYear()} Sampath Kumara
+                  © {new Date().getFullYear()} Marco Lazaro
                 </p>
               </div>
 
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/sampath-kumaramd"
+                  href="https://github.com/Marcpaul111"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#bbbbbb] hover:text-white"
@@ -197,7 +197,7 @@ export default function VSCodeSlugPage() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="mailto:mdskumara.info@gmail.com"
+                  href="mailto:marcolazaro1526@gmail.com"
                   className="text-[#bbbbbb] hover:text-white"
                 >
                   <Mail className="h-5 w-5" />

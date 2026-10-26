@@ -20,28 +20,31 @@ function TimeLineExperienceSection() {
 
   const Experience: Experience[] = [
     {
-      company: 'Fiverr',
+      company: 'Self-Employed',
       position: 'Freelance Software Developer',
-      duration: 'Oct 2023 - Present',
-      skills: [{ name: 'NextJs' }, { name: 'Angular' }, { name: 'TypeScript' }],
+      duration: 'Aug 2025 - Present',
+      skills: [{ name: 'NextJs' }, { name: 'C#' }, { name: 'TypeScript' }],
     },
     {
-      company: 'SoraSoft',
-      position: 'Frontend Developer',
-      duration: 'Sep 2024 - Oct 2024',
-      skills: [{ name: 'NextJs' }, { name: 'Tailwind CSS' }],
+      company: 'Codebility',
+      position: 'Full Stack Developer',
+      duration: 'March 2025 - Aug 2025',
+      skills: [
+        { name: 'NextJs' },
+        { name: 'Tailwind CSS' },
+        { name: 'Supabase' },
+        { name: 'PostgreSQL' },
+      ],
     },
     {
-      company: 'AizenIT',
-      position: 'Software Engineer Intern',
-      duration: 'Jan 2024 - Jun 2024',
-      skills: [{ name: 'Angular' }, { name: 'Bootstrap' }, { name: 'Strapi' }],
-    },
-    {
-      company: 'AsyncDot',
-      position: 'Software Engineer Internship',
-      duration: 'July 2023 - March 2024',
-      skills: [{ name: 'MedusaJS' }, { name: 'NextJs' }, { name: 'T4 App' }],
+      company: 'Technos Systems',
+      position: 'Software Developer',
+      duration: 'March 2023 - Jan 2025',
+      skills: [
+        { name: 'PHP CodeIgniter' },
+        { name: 'Bootstrap' },
+        { name: 'MySQL' },
+      ],
     },
   ];
 

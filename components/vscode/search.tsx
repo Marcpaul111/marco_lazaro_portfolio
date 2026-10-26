@@ -32,7 +32,7 @@ export default function SearchComponent() {
       {
         title: 'About Me',
         description:
-          'Information about Sampath Kumara, background, education, and professional journey',
+          'Information about Marco Lazaro, background, education, and professional journey',
         path: '/about-me',
         type: 'page',
         icon: <span className="text-blue-500">📄</span>,
@@ -59,7 +59,7 @@ export default function SearchComponent() {
           'Professional resume, CV, work history, and qualifications',
         path: '/about-me',
         type: 'page',
-        icon: <span className="text-orange-500">📝</span>,
+        icon: <span className="text-orange-500">📝 </span>,
       },
       {
         title: 'Contact',
