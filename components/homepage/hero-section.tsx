@@ -95,7 +95,7 @@ const HeroSection = () => {
                 texts={[
                   'Full Stack Developer',
                   'Software Engineer',
-                  'UI/UX Enthusiast',
+                  // 'UI/UX Enthusiast',
                   'Problem Solver',
                   'Tech Innovator',
                   'Open Source Contributor',
