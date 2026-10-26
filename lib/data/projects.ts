@@ -59,6 +59,10 @@ export const projects: Project[] = [
         description:
           'Admin-configurable company profile, logo upload, and per-payment-method enable/disable toggles so operators can control which payment options tenants actually see.',
       },
+      {
+        title: 'User: lazaromarco1526@gmail.com / Password: M@rcpaul1526',
+        description: '',
+      },
     ],
   },
 ];
